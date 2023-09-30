@@ -5,6 +5,8 @@ import Navbar1 from "./Components/Navigationbar/Navbar";
 import Cart from "./Screens/Cart/Cart";
 import { LandingPage } from "./Screens/LandingPage/LandingPage";
 
+
+
 export default function App() {
   return (
     <Router>
@@ -18,5 +20,6 @@ export default function App() {
         </Routes>
       </div>
     </Router>
+
   );
 }

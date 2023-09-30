@@ -1,3 +1,4 @@
+
 import React from "react";
 import Basket from "../../assets/navbarImages/basket.svg";
 import Heart from "../../assets/navbarImages/heart.svg";
@@ -112,3 +113,4 @@ export default function Navbar() {
     </div>
   );
 }
+
