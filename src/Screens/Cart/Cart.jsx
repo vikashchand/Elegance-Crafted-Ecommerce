@@ -1,6 +1,8 @@
 import React from "react";
 import { FaApple } from "react-icons/fa";
 
+import s from "../../Images/LinenSuit.jpg"
+import f from "../../Images/PremiumSuit.jpg"
 
 const Cart=()=>{
     return(
@@ -73,7 +75,7 @@ const Cart=()=>{
                         <div className="w-[400px] h-[330px]  md:ml-[70px] ml-[50px] flex flex-col  text-white ">
                             <div className="w-full h-[150px]  mt-[30px] flex md:mb-4  mb-20">
                                 <div className="md:w-[150px] md:h-[150px] w-[180px] h-[180px] bg-orange-100 rounded-lg">
-                                    <img src="../Images/PremiumSuit.jpg" alt="PremiumSuit.jpg"></img>
+                                    <img src={s} alt="PremiumSuit.jpg"></img>
                                 </div>
                                 <div className="flex flex-col gap-1 ml-4">
                                     <div>
@@ -95,7 +97,7 @@ const Cart=()=>{
 
                             <div className="w-full h-[150px] md:mt-[20px] mt-[45px] flex ">
                                 <div className="md:w-[150px] md:h-[150px] w-[180px] h-[180px] bg-orange-100 rounded-lg">
-                                    <img src="../Images/LinenSuit.jpg" alt="LinenSuit.jpg"></img>
+                                    <img src={f}alt="LinenSuit.jpg"></img>
                                 </div>
                                 <div className="flex flex-col gap-1 ml-4">
                                     <div>
