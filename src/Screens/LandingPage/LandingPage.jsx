@@ -1,7 +1,10 @@
 import React from 'react'
+import Header from './segments/Header'
 
 export const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <>
+      <Header/>
+    </>
   )
 }
