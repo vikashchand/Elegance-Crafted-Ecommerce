@@ -3,6 +3,8 @@ import Basket from "../../assets/navbarImages/basket.svg";
 import Heart from "../../assets/navbarImages/heart.svg";
 import Currency from "../../assets/navbarImages/currency.svg";
 import Avatar from "../../assets/navbarImages/avatar.svg";
+import { NavLink ,Link} from "react-router-dom";
+
 // import { Link, useState } from "react";
 
 export default function Navbar() {
@@ -12,8 +14,9 @@ export default function Navbar() {
       <div className="py-4 px-4 sm:px-20 flex justify-between items-center">
         <div className="text-white font-bold text-lg">Elegance Crafted 🥀</div>
         <div className="space-x-2 flex">
-          <button className="text-white flex items-center space-x-2">
+          <NavLink to="/Cart" className="text-white flex items-center space-x-2">
             <img src={Basket} alt="basket" />
+           
             <span
               className="text-[var(--White, #FFF)] font-NotoSans text-[1.125rem] font-bold"
               style={{
@@ -24,7 +27,8 @@ export default function Navbar() {
             >
               {/* Shopping */}
             </span>
-          </button>
+            
+          </NavLink>
           <button className="text-white flex items-center space-x-2">
             <img src={Heart} alt="heart.svg" />
             <span
