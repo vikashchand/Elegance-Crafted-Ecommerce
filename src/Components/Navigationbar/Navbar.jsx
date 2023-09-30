@@ -9,7 +9,7 @@ import { NavLink ,Link} from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="bg-[#0F172A]">
+    <div className="bg-[#0F172A] md:w-screen  w-[450px] " >
       {/* Top Section */}
       <div className="py-4 px-4 sm:px-20 flex justify-between items-center">
         <div className="text-white font-bold text-lg">Elegance Crafted 🥀</div>
