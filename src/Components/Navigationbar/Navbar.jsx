@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="bg-[#0F172A] md:w-screen  w-[450px] " >
       {/* Top Section */}
       <div className="py-4 px-4 sm:px-20 flex justify-between items-center">
-        <div className="text-white font-bold text-lg">Elegance Crafted 🥀</div>
+        <div className="text-white font-bold text-lg"> <Link to="/"> Elegance Crafted  </Link>🥀 </div>
         <div className="space-x-2 flex">
           <NavLink to="/Cart" className="text-white flex items-center space-x-2">
             <img src={Basket} alt="basket" />
@@ -78,7 +78,7 @@ export default function Navbar() {
       {/* Bottom Section */}
       <div className="py-2 px-4 sm:px-20 flex justify-between items-center">
         <div className="space-x-4">
-            <button className="text-white hover:bg-[#1E293B] p-4 rounded-md">Store</button>
+            <Link to="/products" className="text-white hover:bg-[#1E293B] p-4 rounded-md">Store</Link>
             <button className="text-white hover:bg-[#1E293B] p-4 rounded-md">Designer</button>
             <button className="text-white hover:bg-[#1E293B] p-4 rounded-md">Categories</button>
         </div>

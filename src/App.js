@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom"; // Im
 import Navbar1 from "./Components/Navigationbar/Navbar";
 import Cart from "./Screens/Cart/Cart";
 import { LandingPage } from "./Screens/LandingPage/LandingPage";
+import Productspage from "./Screens/Productspage/Productspage";
 
 
 
@@ -15,6 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/Cart" element={<Cart />} />
+          <Route path="/products" element={<Productspage/> } />
           {/* Add a catch-all route */}
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>

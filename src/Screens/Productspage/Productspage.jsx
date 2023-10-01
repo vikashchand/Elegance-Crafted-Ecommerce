@@ -56,12 +56,12 @@ const Productspage = () => {
   };
   return (
     <>
-      <div className='overflow-hidden'>
+      <div className='overflow-hidden bg-[#0F172A] md:w-screen  w-[450px] '>
         <h1 className='text-3xl font-medium text-blue-900 relative left-[40px] m-6  '>Our products</h1>
         <div className='flex justify-evenly   border-t-2   m-2 '>
           <div className='sm:w-[24%]  sm:h-[1000px] flex-flex-col  md:relative md:left-[8px]'>
             <div className=' m-1'>
-              <ul className='font-semibold text-[16px] text-blue-950  flex flex-col  '>
+              <ul className='font-semibold text-[16px] text-blue-900  flex flex-col  '>
                 <li className='m-1'>Man</li>
                 <li className='m-1'>Woman</li>
                 <li className='m-1'>Sales</li>
