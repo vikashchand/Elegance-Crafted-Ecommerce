@@ -56,7 +56,7 @@ export default function Navbar() {
               {/* Heart */}
             </span>
           </button>
-          <button className="text-white flex items-center space-x-2">
+          <NavLink to="login" className="text-white flex items-center space-x-2">
             <img src={Avatar} alt="Avatar" className="rounded-lg"/>
             <span
               className="text-[var(--White, #FFF)] font-NotoSans text-[1.125rem] font-bold"
@@ -68,7 +68,7 @@ export default function Navbar() {
             >
               {/* Currency */}
             </span>
-          </button>
+        </NavLink>
         </div>
       </div>
 

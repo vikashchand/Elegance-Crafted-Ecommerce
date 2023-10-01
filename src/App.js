@@ -5,6 +5,7 @@ import Navbar1 from "./Components/Navigationbar/Navbar";
 import Cart from "./Screens/Cart/Cart";
 import { LandingPage } from "./Screens/LandingPage/LandingPage";
 import Productspage from "./Screens/Productspage/Productspage";
+import Login from "./Screens/Login/Login";
 
 
 
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/products" element={<Productspage/> } />
+          <Route path="/login" element={<Login/> } />
           {/* Add a catch-all route */}
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
