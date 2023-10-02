@@ -29,6 +29,8 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+    position: relative;
+    margin: auto;
    
 }
 .shop_content
@@ -38,11 +40,13 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    position:absolute;
 }
 .shop_cards
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .card{
     width: 300px;
@@ -112,4 +116,59 @@
 {
     color: blue;
  
+}
+@media screen and (max-width: 1200px){
+    .shop_container
+    {
+
+        flex-wrap: wrap;
+        
+    }
+    .card
+    {
+        width: 259px;
+        height: 281px;
+        margin: auto;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+        
+    }
+    .card_heading p{
+        /* color: black; */
+        font-weight: 600;
+        text-align: center;
+    }
+    .card_heading h1
+    {
+        /* color: black; */
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card
+    {
+        width: 187px;
+    height: 244px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+        
+    }
+    .card_heading p{
+        /* color: black; */
+        font-weight: 600;
+        text-align: center;
+        font-size: small;
+    }
+    .card_heading h1
+    {
+        /* color: black; */
+        font-weight: 700;
+        font-size: small;
+    }
+    .btn-tertiary
+    {
+        font-size: small;
+    }
+    
 }

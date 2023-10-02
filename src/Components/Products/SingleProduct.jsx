@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react"
 import { ProductImage } from "./ProductImage";
 import LinenSuit from "../../Images/LinenSuit.jpg";
