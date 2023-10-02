@@ -12,7 +12,7 @@ import Login from "./Screens/Login/Login";
 export default function App() {
   return (
     <Router>
-      <div className="main-container">
+      <div className=" md:w-screen  w-[450px]">
         <Navbar1 />
         <Routes>
           <Route path="/" element={<LandingPage />} />

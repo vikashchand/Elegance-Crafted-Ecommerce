@@ -15,7 +15,7 @@ const ShopByCategory = () => {
             <div className="shop_headings">
                 <h3>Shop By Category</h3>
                 <button className="btn-tertiary">
-                    Browse all catergory >
+                    Browse all catergory 
                 </button>
 
             </div>
@@ -27,7 +27,7 @@ const ShopByCategory = () => {
                             <p>Exclusively Creative</p>
                             <h1>Canvas Painting</h1>
                             <button className="btn-tertiary">
-                                See Products >
+                                See Products 
                             </button>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const ShopByCategory = () => {
                             <p>Exclusively Creative</p>
                             <h1>Canvas Painting</h1>
                             <button className="btn-tertiary">
-                                See Products >
+                                See Products 
                             </button>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const ShopByCategory = () => {
                             <p>Exclusively Creative</p>
                             <h1>Canvas Painting</h1>
                             <button className="btn-tertiary">
-                                See Products >
+                                See Products 
                             </button>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const ShopByCategory = () => {
                             <p>Exclusively Creative</p>
                             <h1>Canvas Painting</h1>
                             <button className="btn-tertiary">
-                                See Products >
+                                See Products 
                             </button>
                         </div>
                     </div>
